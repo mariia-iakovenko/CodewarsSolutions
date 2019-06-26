@@ -2,14 +2,14 @@ Hello
 
 
 ======
-####String ends with? 7kyu
+#### String ends with? 7kyu
 * https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
 ```javascript
 function solution(str, ending){
   return str.endsWith(ending);
 }
 ```
-####Returning Strings 8kyu
+#### Returning Strings 8kyu
 * https://www.codewars.com/kata/55a70521798b14d4750000a4
 
 ```javascript 
