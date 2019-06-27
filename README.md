@@ -48,3 +48,17 @@ function century(year) {
   return Math.ceil(year/100);
 }
 ```
+#### Square(n) Sum 8kyu
+* https://www.codewars.com/kata/square-n-sum/train/javascript
+
+```javascript
+function squareSum(numbers){
+let sum = 0;
+let sumTotal = 0;
+  for(let i = 0; i < numbers.length; i++){
+  sum = Math.pow(numbers[i], 2);
+  sumTotal += sum;
+  }
+  return sumTotal;
+}
+```
