@@ -17,3 +17,13 @@ function greet(name){
   return 'Hello, '+ name + ' how are you doing today?'
 }
 ```
+
+#### Kata Example Twist 8kyu
+* https://www.codewars.com/kata/kata-example-twist/train/javascript
+
+```javascript
+var websites = [];
+for(let i = 0; i < 1000; i++){
+websites.push('codewars');
+}
+```
