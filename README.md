@@ -27,3 +27,17 @@ for(let i = 0; i < 1000; i++){
 websites.push('codewars');
 }
 ```
+
+#### Invert values 8kyu
+* https://www.codewars.com/kata/invert-values/train/javascript
+
+```javascript
+function invert(array) {
+const invertArray = [];
+  for(let i = 0; i < array.length; i++){
+  invertArray.push(-array[i]);
+  }
+   return invertArray;
+}
+```
+
