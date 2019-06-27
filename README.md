@@ -62,3 +62,26 @@ let sumTotal = 0;
   return sumTotal;
 }
 ```
+
+#### Check the exam 8kyu
+*https://www.codewars.com/kata/check-the-exam/train/javascript
+
+```javascript
+function checkExam(array1, array2) {
+let totalScore = 0;
+  for (let i = 0; i < array1.length; i++){
+    if(array1[i] === array2[i]){
+    totalScore += 4;
+    }else if (array2[i] === ''){
+    totalScore += 0;
+    }else{
+    totalScore -= 1;
+    }
+  }
+  if(totalScore < 0){
+  return 0;
+  }else{
+  return totalScore;
+  }
+}
+```
