@@ -40,4 +40,11 @@ const invertArray = [];
    return invertArray;
 }
 ```
+#### Century From Year 8kyu
+* https://www.codewars.com/kata/century-from-year/train/javascript
 
+```javascript
+function century(year) {
+  return Math.ceil(year/100);
+}
+```
