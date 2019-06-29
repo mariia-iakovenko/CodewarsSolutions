@@ -85,3 +85,17 @@ let totalScore = 0;
   }
 }
 ```
+#### Sum of Digits / Digital Root 6kyu
+*https://www.codewars.com/kata/sum-of-digits-slash-digital-root/train/javascript
+
+```javascript
+function digital_root(n) {
+ if(n === 0){
+     return 0;
+   }else if(n > 9){
+     return (n - 9*Math.floor((n-1)/9));
+   }else if(n < 9){
+     return n;
+   }
+}
+```
