@@ -115,3 +115,4 @@ let sum1 = 0;
 return sum1*sum1 - sum2;
 }
 ```
+* new solution
