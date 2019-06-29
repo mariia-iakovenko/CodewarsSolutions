@@ -99,3 +99,19 @@ function digital_root(n) {
    }
 }
 ```
+#### Difference Of Squares 7kyu
+*https://www.codewars.com/kata/difference-of-squares/train/javascript
+
+```javascript
+function differenceOfSquares(n){
+let sum2 = 0;
+  for(let i = 1; i <= n; i++){
+  sum2 += i*i;
+  }
+let sum1 = 0;
+  for(let i = 1; i <= n; i++){
+  sum1 += i;
+  }
+return sum1*sum1 - sum2;
+}
+```
