@@ -150,3 +150,17 @@ function solution(str){
   return str.split('').reverse().join('');  
 }
 ```
+
+#### Mumbling 7kyu
+*https://www.codewars.com/kata/mumbling/train/javascript
+
+```javascript
+function accum(s) {
+ let s1 = '';
+  for(let i = 0; i < s.length; i++){
+  s1 += s[i].toUpperCase() + s[i].toLowerCase().repeat(i) + '-';
+
+  }
+   return s1.slice(0, -1);
+}
+```
