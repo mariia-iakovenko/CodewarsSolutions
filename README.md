@@ -118,3 +118,16 @@ return sum1*sum1 - sum2;
 * new solution
 ----
 ****
+
+#### Reversed Strings
+*https://www.codewars.com/kata/reversed-strings/train/javascript
+
+```javascript
+function solution(str){
+  let str1 = '';
+  for(let i = str.length - 1; i >= 0; i--){
+  str1 += str[i];
+  }
+  return str1;
+}
+```
