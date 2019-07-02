@@ -144,3 +144,9 @@ let sum = 0;
   return sum / arr.length;
 }
 ```
+#### Reserved String 8kyu
+```javascript
+function solution(str){
+  return str.split('').reverse().join('');  
+}
+```
