@@ -119,7 +119,7 @@ return sum1*sum1 - sum2;
 ----
 ****
 
-#### Reversed Strings
+#### Reversed Strings 8kyu
 *https://www.codewars.com/kata/reversed-strings/train/javascript
 
 ```javascript
@@ -129,5 +129,18 @@ function solution(str){
   str1 += str[i];
   }
   return str1;
+}
+```
+
+#### Calculate average 8kyu
+*https://www.codewars.com/kata/calculate-average/train/javascript
+
+```javascript
+function find_average(arr) {
+let sum = 0;
+  for(let i = 0; i < arr.length; i++){
+  sum += arr[i];
+  }
+  return sum / arr.length;
 }
 ```
