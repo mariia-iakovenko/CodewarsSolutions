@@ -204,3 +204,26 @@ function initializeNames(name){
   return newName;
 }
 ```
+#### Array Array Array 7kyu
+*https://www.codewars.com/kata/array-array-array/train/javascript
+
+```javascript
+function explode(x){
+let arr = [];
+  if(typeof x[0] === 'number'){ 
+    for(let i = 1; i <= x[0]; i++){
+    arr.push(x);
+    }
+  }
+  
+  if(typeof x[1] === 'number'){ 
+  for(let i = 1; i <= x[1]; i++){
+    arr.push(x);
+    }
+  }
+if(typeof x[0] !== 'number'&& typeof x[1] !== 'number'){
+return 'Void!'
+}
+return arr;
+}
+```
