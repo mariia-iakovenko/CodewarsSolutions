@@ -164,3 +164,17 @@ function accum(s) {
    return s1.slice(0, -1);
 }
 ```
+#### Reverse a Number 7kyu
+*https://www.codewars.com/kata/555bfd6f9f9f52680f0000c5
+
+```javascript
+function reverseNumber(n) {
+  if(n < 0){
+  n = n * (-1);
+  n = n.toString().split('').reverse().join('');
+  n = +(n);
+  return n * (-1);
+  }
+  if(n >= 0){return +(n.toString().split('').reverse().join(''));}
+}
+```
