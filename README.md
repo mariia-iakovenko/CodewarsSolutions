@@ -191,3 +191,16 @@ return n * 2 - 2;
 
 }
 ```
+#### Initialize my name 7kyu
+*https://www.codewars.com/kata/initialize-my-name/train/javascript
+
+```javascript
+function initializeNames(name){
+  let arr = name.split(' ');
+  for(let i = 1; i < arr.length - 1; i++){
+  arr[i] = arr[i].substring(0, 1) + '.';
+  }
+  let newName = arr.join(' ');
+  return newName;
+}
+```
