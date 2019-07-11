@@ -275,3 +275,15 @@ let uniqueNumbers = [];
     return uniqueNumbers;
 }
 ```
+
+#### A Needle in the Haystack 8kyu
+* https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript
+
+```javascript
+function findNeedle(h) {
+  for(let i = 0; i < h.length; i++){
+  if(typeof h[i] === 'string' && h[i].includes('needle')=== true ){return "found the needle at position " + i;}
+  }
+  
+}
+```
