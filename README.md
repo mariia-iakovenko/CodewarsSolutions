@@ -260,3 +260,18 @@ let bird = [];
   return bird;
 }
 ```
+#### Remove duplicates from list 8kyu
+
+*https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript
+
+```javascript
+function distinct(a) {
+let uniqueNumbers = [];
+    for(var i in a){
+        if(uniqueNumbers.indexOf(a[i]) === -1){
+            uniqueNumbers.push(a[i]);
+        }
+    }
+    return uniqueNumbers;
+}
+```
