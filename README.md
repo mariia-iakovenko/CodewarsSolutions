@@ -227,3 +227,36 @@ return 'Void!'
 return arr;
 }
 ```
+#### Create Four Letter Birding Codes from Bird Names 6kyu
+*https://www.codewars.com/kata/create-four-letter-birding-codes-from-bird-names/train/javascript
+
+```javascript
+function birdCode(arr){
+let newArr = [];
+let bird = [];
+  for(let i = 0; i < arr.length; i++){
+  newArr.push(arr[i].split(/[^a-zA-Z,']+/g));
+  }
+ for (let i = 0; i < newArr.length; i++) {
+  for (let j = 0; j < newArr[i].length; j++) {
+    if (newArr[i].length === 1) {
+      bird.push(newArr[i][j].substring(0, 4).toUpperCase());
+    break;
+    }
+    if (newArr[i].length === 2) {
+      bird.push((newArr[i][0].substring(0, 2) + newArr[i][1].substring(0, 2)).toUpperCase());
+    break;
+    }
+    if (newArr[i].length === 3) {
+      bird.push((newArr[i][0].substring(0, 1) + newArr[i][1].substring(0, 1) + newArr[i][2].substring(0, 2)).toUpperCase());
+    break;
+    }
+    if (newArr[i].length === 4) {
+      bird.push((newArr[i][0].substring(0, 1) + newArr[i][1].substring(0, 1) + newArr[i][2].substring(0, 1) + newArr[i][3].substring(0, 1)).toUpperCase());
+    break;
+    }
+  }
+}
+  return bird;
+}
+```
