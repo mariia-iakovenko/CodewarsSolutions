@@ -312,3 +312,20 @@ let sum = 0;
   return Math.floor(sum / marks.length);
 }
 ```
+#### How good are you really? 8kyu
+*https://www.codewars.com/kata/how-good-are-you-really/train/javascript
+
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0;
+  for(let i = 0;i < classPoints.length; i++){
+  sum += classPoints[i];
+  }
+  sum = sum  + yourPoints;
+  if(yourPoints > sum / (classPoints.length + 1)){
+  return true;
+  }else{
+  return false;
+  }
+}
+```
