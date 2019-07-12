@@ -329,3 +329,17 @@ function betterThanAverage(classPoints, yourPoints) {
   }
 }
 ```
+#### Convert number to reversed array of digits 8kyu
+*https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/train/javascript
+
+```javascript
+function digitize(n) {
+  n = n.toString().split('').reverse();
+  let arr = [];
+  for(let i = 0; i < n.length; i++){
+  arr.push(+n[i]);
+  }
+  return arr;
+}
+```
+
