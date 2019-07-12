@@ -287,3 +287,16 @@ function findNeedle(h) {
   
 }
 ```
+#### Sort and Star 8kyu
+* https://www.codewars.com/kata/sort-and-star/train/javascript
+
+```javascript
+function twoSort(s) {
+s.sort();
+let str = '';
+  for(let j = 0; j < s[0].length; j++){
+   str = str + s[0][j] + '***';  
+  }
+  return str.slice(0, -3);
+}
+```
