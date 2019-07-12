@@ -300,3 +300,15 @@ let str = '';
   return str.slice(0, -3);
 }
 ```
+#### Get the mean of an array 8kyu
+*https://www.codewars.com/kata/get-the-mean-of-an-array/train/javascript
+
+```javascript
+function getAverage(marks){
+let sum = 0;
+  for(let i = 0; i < marks.length; i++){
+  sum += marks[i];
+  }
+  return Math.floor(sum / marks.length);
+}
+```
