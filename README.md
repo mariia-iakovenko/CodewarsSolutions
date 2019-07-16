@@ -343,7 +343,7 @@ function digitize(n) {
 }
 ```
 #### Valid Parentheses 5kyu
-*
+*https://www.codewars.com/kata/52774a314c2333f0a7000688
 
 ```javascript
 function validParentheses(p){
@@ -359,7 +359,7 @@ function validParentheses(p){
 }
 ```
 #### Arrays Similar 6kyu
-*
+*https://www.codewars.com/kata/51e704f2d8dbace389000279
 
 ```javascript
 function arraysSimilar(arr1, arr2) {
@@ -373,7 +373,7 @@ function arraysSimilar(arr1, arr2) {
 }
 ```
 #### Sum ALL the arrays! 7kyu
-*
+*https://www.codewars.com/kata/5594463eaf1701909c0000d4
 
 ```javascript
 function arraySum(arr) {
