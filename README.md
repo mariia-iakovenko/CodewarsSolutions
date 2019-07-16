@@ -342,4 +342,21 @@ function digitize(n) {
   return arr;
 }
 ```
+#### Valid Parentheses 5kyu
+*
+
+```javascript
+function validParentheses(p){
+  const arr = p.split('');
+  let a = 0;
+  for (let i = 0; i < arr.length; i++){
+  if(arr[i] === '(') a = a + 1;
+  else if(arr[i] === ')') a = a - 1;
+  if(a < 0) return false;
+  }
+  if(a === 0) return true;
+  else return false;
+}
+```
+
 
