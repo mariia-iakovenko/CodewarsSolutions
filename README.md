@@ -372,5 +372,18 @@ function arraysSimilar(arr1, arr2) {
   return true;
 }
 ```
+#### Sum ALL the arrays! 7kyu
+*
+
+```javascript
+function arraySum(arr) {
+let sum = 0;
+let b = arr.toString().split(',');
+  for(let i = 0; i < b.length; i++){
+  sum += Number.isNaN(Number(b[i])) ? 0: Number(b[i]);
+  }
+   return sum;
+}
+```
 
 
