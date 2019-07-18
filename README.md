@@ -385,5 +385,17 @@ let b = arr.toString().split(',');
    return sum;
 }
 ```
+####Beginner - Reduce but Grow 8kyu
+*
+
+```javascript
+function grow(x){
+let grow = 1;
+for(let i = 0; i < x.length; i++ ){
+grow *= x[i];
+}
+return grow;
+}
+```
 
 
