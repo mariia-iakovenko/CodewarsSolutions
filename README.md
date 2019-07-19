@@ -411,4 +411,14 @@ let sum = 0;
   return sum;
 }
 ```
+#### Convert a String to a Number! 8kyu
+*
+
+```javascript
+var stringToNumber = function(str){
+  // put your code here
+  return +str;
+}
+```
+
 
