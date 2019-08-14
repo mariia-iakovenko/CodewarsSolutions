@@ -477,5 +477,17 @@ function oddCount(n){
  return Math.floor( n/2);
 }
 ```
+#### Count by X 8kyu
+
+*
+```javascript
+function countBy(x, n) {
+  var z = [];
+for(let i = x; i <= n * x; i= i+ x){
+z.push(i);
+}
+  return z;
+}
+```
 
 
