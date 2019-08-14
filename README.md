@@ -470,5 +470,12 @@ function areYouPlayingBanjo(name) {
   return name + " does not play banjo";
 }
 ```
+#### Count Odd Numbers below n 8kyu
+*
+```javascript
+function oddCount(n){
+ return Math.floor( n/2);
+}
+```
 
 
