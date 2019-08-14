@@ -420,5 +420,17 @@ var stringToNumber = function(str){
   return +str;
 }
 ```
+#### Convert a Boolean to a String 8kyu
+*
+
+```javascript
+function booleanToString(b){
+  if(b){
+  return "true";
+  }else{
+  
+  return "false";} 
+}
+```
 
 
