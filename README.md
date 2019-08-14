@@ -447,5 +447,17 @@ let sum = 0;
     
 };
 ```
+#### Sentence Smash 8kyu
+*
+```javascript
+function smash (words) {
+let str = '';
+for(let i = 0; i < words.length; i++){
+str = str + words[i] + ' ';
+}
+ return str.trim();   
+    
+};
+```
 
 
